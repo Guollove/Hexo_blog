@@ -5,6 +5,12 @@ categories: [工具]
 tags: [工具]
 ---
 
+CuteHttpFileServer 是一个免费的 http 共享软件可以充当局域网文件互传工具如果有外网 IP 可以当 NAS 服务器用哦！
+
+<!-- more -->
+
+[官网入口 http://iscute.cn/chfs](http://iscute.cn/chfs)
+
 ### 基本用法
 
 #### 非系统服务运行

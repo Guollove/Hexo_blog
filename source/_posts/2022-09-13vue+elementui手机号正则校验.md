@@ -5,6 +5,10 @@ categories: [笔记]
 tags: [Vue, elemuntui, Web]
 ---
 
+Vue elementui 的手机号正则校验
+
+<!-- more -->
+
 # vue+[elementui](https://so.csdn.net/so/search?q=elementui&spm=1001.2101.3001.7020)手机号正则校验
 
 ```js

@@ -10,12 +10,21 @@ changyong:
       avatar: https://static.hdslb.com/images/favicon.ico
     - title: Github
       url: https://github.com/
+      avatar: https://github.githubassets.com/favicons/favicon.svg
     - title: Gitee
       url: https://gitee.com/
+      avatar: https://gitee.com/assets/favicon_message.ico
     - title: CuteHttpFileServer
       url: http://iscute.cn/chfs
+      avatar: http://iscute.cn/asset/images/logo.ico
     - title: Windows 系统
       url: https://hellowindows.cn/
+    - title: 龙猫网
+      url: https://ailongmiao.com/
+      avatar: https://media.ailongmiao.com/uploads/2021/09/favicon.png
+    - title: 收藏网址
+      url: /web/
+      avatar: https://guollove.cc/favicon.ico
 
 mirrors:
   title: 国内镜像站

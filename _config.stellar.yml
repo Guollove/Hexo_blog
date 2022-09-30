@@ -22,6 +22,19 @@ sidebar:
 #     repo: Guollove/GuaZai
 
 # comments:
+#   service: giscus
+#   giscus:
+#     enable: false
+#     repo: guollove/giscus
+#     repo-id: R_kgDOIGXI1Q
+#     category: Q&A
+#     category-id: DIC_kwDOIGXI1c4CRt6X
+#     mapping: pathname
+#     reactions-enabled: 1
+#     emit-metadata: 0
+#     theme: preferred_color_scheme
+
+# comments:
 #   service: utterances
 #   utterances:
 #     repo: Guollove/GuaZai
@@ -43,7 +56,9 @@ article:
     "新闻稿": "#da0f47"
     "教程": "#ffa000"
     "设计开发": "#03a9f4"
+    "前端": "#03a9f4"
     "奇思妙想": "#009688"
+    "表白": "#F08080"
     "解决方案": "#ff9800"
     "技术加油站": "#4caf50"
     "笔记": "#4caf50"

@@ -1,5 +1,5 @@
 ---
-menu_id: friens
+menu_id: about
 h1: 友链
 ---
 

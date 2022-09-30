@@ -1,15 +1,20 @@
 #### - 这里写的内容会覆盖主题配置文件中的
 welcome:
- layout: markdown
- title: 欢迎, 旅行者
- content: | # support markdown
-  本站是hexo博客搭建
-  使用的是[Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题
-  <br>
-  本人是
-  抑 郁 症 患 者
-  焦 虑 症 患 者
-  狂 躁 症 患 者
-  强 迫 症 患 者
-  恐 高 症 患 者
-  
+  layout: markdown
+  title: 欢迎, 旅行者
+  content: | # support markdown
+    本人是
+    抑 郁 症 患 者
+    焦 虑 症 患 者
+    狂 躁 症 患 者
+    强 迫 症 患 者
+    恐 高 症 患 者
+
+    一件事你犹豫去不去做，
+    那就是该立即动身做的。
+    一个东西你犹豫买不买，
+    那就是该买的。
+    喜欢是非常难得的，
+    尽管去争取你喜欢的，
+    而不是费心找廉价点的替代品。
+    对事物，对人都该如此。
