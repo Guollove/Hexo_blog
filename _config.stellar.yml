@@ -1,0 +1,96 @@
+#  侧边栏配置
+#    Logo
+#    左上角的 logo 和标题取自站点根目录的配置文件：
+sidebar:
+  #   logo:
+  #     title: '[<img no-lazy height="32px" src="/logo.png"/>](/logo.png)'
+  #  主导航栏
+  menu:
+    post: "[btn.blog](/)"
+    wiki: "[btn.wiki](/wiki/)"
+    notes: "[便签](/notes/)"
+    more: "[更多](/about/)"
+  widgets:
+    # Recent update ---RSS源码
+    recent:
+      rss: /atom.xml # npm i hexo-generator-feed
+
+#下面四个都是评论插件
+# comments:
+#   service: beaudar
+#   beaudar:
+#     repo: Guollove/GuaZai
+
+# comments:
+#   service: utterances
+#   utterances:
+#     repo: Guollove/GuaZai
+
+# comments:
+#   service: twikoo
+#   twikoo:
+#     envId: https://xxx # vercel函数
+
+comments:
+  service: valine
+  valine:
+    appId: RTtUw37abzE8770XhWPupuBI-gzGzoHsz
+    appKey: tOP2o0jOdBqqijxlUQbcrCXF
+
+article:
+  # 分类颜色  ---文章项目类别的字体颜色
+  category_color:
+    "新闻稿": "#da0f47"
+    "教程": "#ffa000"
+    "设计开发": "#03a9f4"
+    "奇思妙想": "#009688"
+    "解决方案": "#ff9800"
+    "技术加油站": "#4caf50"
+    "笔记": "#4caf50"
+    "博客主题": "#ffa000"
+    "应用程序": "#e91e63"
+    "工具": "#009688"
+  share: [wechat, weibo, email, link]
+  # related_posts:
+  #   enable: true
+  #   auto_cover: false
+
+footer:
+  # 侧边栏的页脚
+  social:
+    github:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
+      url: https://github.com/guollove
+    music:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+      url: https://music.163.com/#/user/home?id=1480101880
+    unsplash:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
+      url: https://unsplash.com/@xaoxuu
+    comments:
+      icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
+  # 内容区的页脚
+  sitemap:
+    "博客":
+      - "[近期](/)"
+      - "[分类](/blog/categories/)"
+      - "[标签](/blog/tags/)"
+      - "[归档](/blog/archives/)"
+    "项目":
+      - "[开源库](/wiki/tags/开源库/)"
+      - "[实用脚本](/wiki/tags/实用脚本/)"
+      - "[博客主题](/wiki/tags/博客主题/)"
+      - "[应用程序](/wiki/tags/应用程序/)"
+    "社交":
+      - "[友链](/friends/)"
+      - "[留言板](/about/#comments)"
+    "更多":
+      - "[关于本站](/about/)"
+      - "[GitHub](https://github.com/guollove)"
+      - "[GitLab](http://42.192.89.158:8099/explore)"
+  source: "[GitHub](https://github.com/xaoxuu/xaoxuu.github.io/)"
+
+style:
+  codeblock:
+    scrollbar: 0px
